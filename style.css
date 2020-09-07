@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('./images/alesia-kazantceva-283291-1000x500.jpg'), rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#logo {
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#top-menu {
+    float: right;
+    margin-top: 22px;
+    margin-right: 24px;
+}
+
+#top-menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    padding-right: 24px;
+}
+
+#login {
+    color: white;
+}
+
+#register {
+    color: red;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+#join-club {
+    font-family: 'Modak', cursive;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 81px;
+    color: white;
+    margin-top: 96px;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 12px;
+    height: 180px;
+    width: 340px;
+    text-align: left;
+    margin-left: 857px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align-last: left;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+.box ul li {
+    list-style: circle;
+}
